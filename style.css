@@ -2,20 +2,27 @@
 #typing
 {
     color:black;
-    font-family:serif;
-    font-size: 300%;
+    font-family: serif;
+    font-size: 10vh;
     margin: 5%;
 
 }
 
-.komidashi 
+#icon
+{
+    width: 30vh;
+    margin: 5vh;
+}
+
+.komidashi
 {
     color:black;
-    font-family:serif;
-    font-size: 240%;
-    margin: 7%;
-    margin-left: 12%;
+    font-family: serif;
+    font-size: 8vh;
+    margin: 7vh;
+    margin-left: 8vh;
 }
+
 
 #linkcolor
 {
@@ -23,3 +30,24 @@
     color:black;
 
 }
+
+#github
+{
+    width: 30vh;
+}
+
+#twitter
+{
+    width: 30vh;
+}
+
+#facebook
+{
+    width: 30vh;
+}
+
+#gmail
+{
+    width: 30vh;
+}
+
