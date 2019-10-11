@@ -1,0 +1,25 @@
+@charset "utf-8";
+#typing
+{
+    color:black;
+    font-family:serif;
+    font-size: 300%;
+    margin: 5%;
+
+}
+
+.komidashi 
+{
+    color:black;
+    font-family:serif;
+    font-size: 240%;
+    margin: 7%;
+    margin-left: 12%;
+}
+
+#linkcolor
+{
+    text-decoration: none;
+    color:black;
+
+}
