@@ -4,50 +4,82 @@
     color:black;
     font-family: serif;
     font-size: 10vh;
-    margin: 5%;
+    margin: 3%;
 
 }
 
 #icon
 {
-    width: 30vh;
-    margin: 5vh;
+    width: 50vh;
 }
 
 .komidashi
 {
-    color:black;
-    font-family: serif;
-    font-size: 8vh;
-    margin: 7vh;
-    margin-left: 8vh;
+    margin: -5%;
+    margin-left: -8%;
+
+    text-align: center;
 }
 
+.komidashi div
+{
+    color: black;
+    font-family: serif;
+    font-size: 8vh;
+    display: inline-block;
+    margin: 9%;
+}
 
-#linkcolor
+div a
 {
     text-decoration: none;
-    color:black;
+    color: black;
+}
+div a:hover
+{
+    text-decoration: none;
+    color: black;
+}
 
+.images
+{
+    text-align: center;
 }
 
 #github
 {
-    width: 30vh;
+    border-radius: 50%;
+    width:  90px;
+    height: 90px;
 }
 
 #twitter
 {
-    width: 30vh;
+    border-radius: 50%;
+    width:  90px;
+    height: 90px;
+    margin: 0% 10%;
 }
 
 #facebook
 {
-    width: 30vh;
+    border-radius: 50%;
+    width:  90px;
+    height: 90px;
 }
 
-#gmail
+p
 {
-    width: 30vh;
+    padding: 20vh 5vh 2vh 0vh;
+    font-size: 20px;
+    text-align: right;
 }
+
+p img
+{
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+}
+
 

@@ -1,3 +1,16 @@
+// $('#profile').hover
+// {
+//     function() {
+//         font - size : 8vh;
+//     },
+
+//     function() {
+//         display: none;
+//     }
+// };
+
+
+
 function typing(str = ""){
     let buf = document.getElementById("typing").innerHTML; //書き込み済みの文字を要素から取得
     let writed = buf.length; //書き込み済みの文字数を取得
