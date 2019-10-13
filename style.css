@@ -8,16 +8,33 @@
 
 }
 
+.pile
+{
+    position: relative;
+}
+
 #icon
 {
     width: 50vh;
 }
 
+/* #mabataki
+{
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 37.6%;
+    text-align: center;
+} */
+
 .komidashi
 {
     margin: -5%;
     margin-left: -8%;
-
     text-align: center;
 }
 

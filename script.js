@@ -1,30 +1,59 @@
-// $('#profile').hover
-// {
-//     function() {
-//         font - size : 8vh;
-//     },
+$(function () {
 
-//     function() {
-//         display: none;
-//     }
-// };
+    // $('#icon').on(function () {
+    //     $('#icon').html('<img src=".\\images\\mabataki.png" alt="icon">');
+    //     //$('#typing').css('color','red');
+    // });
 
+    // $(function(){
+    //     $('#sample')
+    //     .mousedown(function(){
+    //         $(this).css('background-color', 'Blue');
+    //     })
+    //     .mouseup(function(){
+    //         $(this).css('background-color', 'Red');
+    //     })
+    // });
 
+    // $('#profile').hover(function () {
+    //     $(this).css('font-size', '10vh');
+    // },
+    //     function () {
+    //         $(this).css('font-size', '');
+    //     });
 
-function typing(str = ""){
-    let buf = document.getElementById("typing").innerHTML; //書き込み済みの文字を要素から取得
-    let writed = buf.length; //書き込み済みの文字数を取得
-    let write = "";
-    if(writed < str.length){
-        write = str.charAt(writed); //1文字だけ取得する
-    }else{
-        buf = ""; //今回は何度も繰り返すために内容を消去します
+    // $('#work').hover(function () {
+    //     $(this).css('font-size', '10vh');
+    // },
+    //     function () {
+    //         $(this).css('font-size', '');
+    //     });
+
+    // $('#blog').hover(function () {
+    //     $(this).css('font-size', '10vh');
+    // },
+    //     function () {
+    //         $(this).css('font-size', '');
+    //     });
+
+    function typing(str = "") {
+        let buf = document.getElementById("typing").innerHTML;
+        let writed = buf.length;
+        let write = "";
+        if (writed < str.length) {
+            write = str.charAt(writed);
+        } else {
+
+        }
+        document.getElementById("typing").innerHTML = buf + write;
     }
-    document.getElementById("typing").innerHTML = buf + write; //1文字だけ追加していく
-}
 
-const str = document.getElementById("typing").innerHTML; //書き込む文字を要素から取得
-const delay = 200 //1文字が表示される時間
+    const str = document.getElementById("typing").innerHTML;
+    const delay = 80
 
-document.getElementById("typing").innerHTML = "";
-window.setInterval(function(){typing(str);}, delay);
+    document.getElementById("typing").innerHTML = "";
+    window.setInterval(function () { typing(str); }, delay);
+});
+
+
+
