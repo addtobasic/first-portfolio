@@ -1,19 +1,13 @@
 $(function () {
-
-    // $('#icon').on(function () {
-    //     $('#icon').html('<img src=".\\images\\mabataki.png" alt="icon">');
-    //     //$('#typing').css('color','red');
-    // });
-
-    // $(function(){
-    //     $('#sample')
-    //     .mousedown(function(){
-    //         $(this).css('background-color', 'Blue');
-    //     })
-    //     .mouseup(function(){
-    //         $(this).css('background-color', 'Red');
-    //     })
-    // });
+    $(function(){
+        $('#icon')
+        .mousedown(function(){
+            $('#icon').attr('src', './images/mabataki.png');
+        })
+        .mouseup(function(){
+            $('#icon').attr('src', './images/genshi.jpg');
+        })
+    });
 
     // $('#profile').hover(function () {
     //     $(this).css('font-size', '10vh');
@@ -36,7 +30,7 @@ $(function () {
     //         $(this).css('font-size', '');
     //     });
 
-    function typing(str = "") {
+    function welcome(str = "") {
         let buf = document.getElementById("typing").innerHTML;
         let writed = buf.length;
         let write = "";
@@ -47,12 +41,11 @@ $(function () {
         }
         document.getElementById("typing").innerHTML = buf + write;
     }
-
     const str = document.getElementById("typing").innerHTML;
     const delay = 80
 
     document.getElementById("typing").innerHTML = "";
-    window.setInterval(function () { typing(str); }, delay);
+    window.setInterval(function () { welcome(str); }, delay);
 });
 
 

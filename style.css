@@ -8,28 +8,11 @@
 
 }
 
-.pile
-{
-    position: relative;
-}
-
 #icon
 {
     width: 50vh;
-}
-
-/* #mabataki
-{
-    width: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
-    position: absolute;
-    top: 0%;
-    left: 37.6%;
-    text-align: center;
-} */
+}
 
 .komidashi
 {
@@ -45,6 +28,7 @@
     font-size: 8vh;
     display: inline-block;
     margin: 9%;
+    cursor: pointer;
 }
 
 div a
@@ -61,6 +45,7 @@ div a:hover
 .images
 {
     text-align: center;
+    cursor: pointer;
 }
 
 #github
