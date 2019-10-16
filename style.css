@@ -1,4 +1,9 @@
 @charset "utf-8";
+html
+{
+    overflow-x: hidden;
+}
+
 #typing
 {
     color:black;
