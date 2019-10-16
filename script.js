@@ -1,16 +1,6 @@
 $(function () {
     $(function(){
         $('#icon')
-        .mousedown(function(){
-            $('#icon').attr('src', './images/mabataki.png');
-        })
-        .mouseup(function(){
-            $('#icon').attr('src', './images/genshi.jpg');
-        })
-    });
-
-    $(function(){
-        $('#icon')
         .touchend(function(){
             $('#icon').attr('src', './images/mabataki.png');
         })
