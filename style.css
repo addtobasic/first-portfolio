@@ -1,4 +1,9 @@
 @charset "utf-8";
+body
+{
+    font-family: 'Jomolhari', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 html
 {
     overflow-x: hidden;
