@@ -46,6 +46,3 @@ $(function () {
     document.getElementById("typing").innerHTML = "";
     window.setInterval(function () { welcome(str); }, delay);
 });
-
-
-
