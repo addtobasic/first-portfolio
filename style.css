@@ -16,7 +16,6 @@ html
     font-family: Jomolhari;
     font-size: 10vh;
     margin: 3%;
-
 }
 
 #icon
@@ -29,7 +28,8 @@ html
     cursor: pointer;
 }
 
-#icon:active{
+#icon:active
+{
     background-image: url("./images/mabataki.png");
 }
 
@@ -70,23 +70,23 @@ div a:hover
 #github
 {
     border-radius: 50%;
-    width:  90px;
-    height: 90px;
+    width:  10%;
+    height: 10%;
 }
 
 #twitter
 {
     border-radius: 50%;
-    width:  90px;
-    height: 90px;
+    width:  10%;
+    height: 10%;
     margin: 0% 10%;
 }
 
 #facebook
 {
     border-radius: 50%;
-    width:  90px;
-    height: 90px;
+    width:  10%;
+    height: 10%;
 }
 
 p
