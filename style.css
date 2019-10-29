@@ -5,9 +5,17 @@ body
     font-family: 'Noto Sans JP', sans-serif;
     width: 100%;
 }
+
+body.modal-open
+{
+    overflow: hidden;
+    height: 100%;
+}
+
 html
 {
-    overflow-x: hidden;
+    overflow: auto;
+    height: 100%;
 }
 
 ::-webkit-scrollbar{

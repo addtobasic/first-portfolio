@@ -1,13 +1,13 @@
 $(function () {
-    $(function(){
-        $('#icon')
-        .touchend(function(){
-            $('#icon').attr('src', './images/mabataki.png');
-        })
-        .touchstart(function(){
-            $('#icon').attr('src', './images/genshi.jpg');
-        })
-    });
+    // $(function(){
+    //     $('#icon')
+    //     .touchend(function(){
+    //         $('#icon').attr('src', './images/mabataki.png');
+    //     })
+    //     .touchstart(function(){
+    //         $('#icon').attr('src', './images/genshi.jpg');
+    //     })
+    // });
     // $('#profile').hover(function () {
     //     $(this).css('font-size', '10vh');
     // },
