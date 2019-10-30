@@ -7,10 +7,9 @@ body
     min-width: 1024px;
 }
 
-::-webkit-scrollbar
+html
 {
-    overflow: auto;
-    display: none;
+    overflow-x: hidden;
 }
 
 #typing
