@@ -77,12 +77,14 @@ div a:hover
 {
     border-radius: 50%;
     width:  12%;
+    height: auto;
 }
 
 #twitter
 {
     border-radius: 50%;
     width:  12%;
+    height: auto;
     margin: 0% 10%;
 }
 
@@ -90,6 +92,7 @@ div a:hover
 {
     border-radius: 50%;
     width:  12%;
+    height: auto;
 }
 
 p
