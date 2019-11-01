@@ -26,7 +26,7 @@ html
 
 #icon
 {
-    background-image: url("./images/genshi.jpg");
+    background-image: url("./html/css/images/genshi.jpg");
     background-size: contain;
     height: 50vh;
     width: 50vh;
@@ -36,7 +36,7 @@ html
 
 #icon:active
 {
-    background-image: url("./images/mabataki.png");
+    background-image: url("./html/css/images/mabataki.png");
 }
 
 .komidashi
