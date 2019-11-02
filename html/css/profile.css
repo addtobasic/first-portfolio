@@ -21,3 +21,11 @@
 {
     background-image: url("./images/mabataki.png");
 }
+
+#name
+{
+    margin: 1% 0%;
+    font-family: Noto Sans JP;
+    font-size: 5vh;
+    color:black;
+}
