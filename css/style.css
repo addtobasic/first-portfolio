@@ -111,3 +111,28 @@ p img
     width: 30px;
     height: 30px;
 }
+
+
+.komidashi a 
+{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.komidashi a::after 
+{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: gray;
+    transform: scale(0, 2);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+.komidashi a:hover::after 
+{
+    transform: scale(1, 2);
+}

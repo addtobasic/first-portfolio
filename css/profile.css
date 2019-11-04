@@ -55,10 +55,30 @@ p
 {
     text-decoration: none;
     color: black;
+    position: relative;
 }
 
 .pagejamp a:hover
 {
     text-decoration: none;
     color: black;
+}
+
+.pagejamp a::after 
+{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: gray;
+    transform: scale(0, 2);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+
+.pagejamp a:hover::after 
+{
+    transform: scale(1, 2);
 }
