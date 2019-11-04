@@ -24,8 +24,21 @@
 
 #name
 {
-    margin: 1% 0%;
+    margin: 1%
+    0%;
     font-family: Noto Sans JP;
     font-size: 5vh;
     color:black;
+}
+
+p
+{
+    width: 100%;
+}
+.mainprofile
+{
+    font-family: Noto Sans JP;
+    color: grey;
+    margin: 3% 20%;
+    word-wrap: break-word;
 }
