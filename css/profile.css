@@ -42,3 +42,23 @@ p
     margin: 3% 20%;
     word-wrap: break-word;
 }
+
+.pagejamp div
+{
+    font-family: Jomolhari;
+    display: inline-block;
+    font-size: 250%;
+    margin: 6% 0% 0% 4%;
+}
+
+.pagejamp a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.pagejamp a:hover
+{
+    text-decoration: none;
+    color: black;
+}
