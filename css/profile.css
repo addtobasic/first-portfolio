@@ -1,9 +1,14 @@
+body
+{
+    background-color: #eceff1;
+}
+
 #typing
 {
     margin: 4% 0% 2% 0%;
     font-family: Jomolhari;
     font-size: 10vh;
-    color:black;
+    color:#37474f;
 }
 
 #icon
@@ -24,11 +29,10 @@
 
 #name
 {
-    margin: 1%
-    0%;
+    margin: 1% 0%;
     font-family: Noto Sans JP;
     font-size: 5vh;
-    color:black;
+    color:#37474f;
 }
 
 p
@@ -54,20 +58,20 @@ p
 .pagejamp a
 {
     text-decoration: none;
-    color: black;
+    color: #37474f;
     position: relative;
 }
 
 .pagejamp a:hover
 {
     text-decoration: none;
-    color: black;
+    color: #37474f;
 }
 
 .pagejamp a::after 
 {
     position: absolute;
-    bottom: 3px;
+    bottom: 7px;
     left: 0;
     content: '';
     width: 100%;

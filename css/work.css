@@ -1,19 +1,78 @@
+body
+{
+    background-color: #eceff1;
+}
+
 #typing
 {
     margin: 4% 0% 2% 0%;
     font-family: Jomolhari;
     font-size: 10vh;
-    color:black;
+    color:#37474f;
 }
 
-.furait
+div p
 {
-    height: 10vh;
-    width: 10vh;
+    font-family: Noto Sans JP;
+    font-size: 5vh;
 }
 
-.yurui
+/* .furait
 {
-    height: 10vh;
-    width: 10vh;
+    padding: 6% 0%;
+} */
+
+/* #furait_pic
+{
+    width: 250px;
+    height: 250px;
+} */
+
+/* div a
+{   
+    width: 250px;
+    height: 250px;
+} */
+
+
+
+
+.pagejamp div
+{
+    font-family: Jomolhari;
+    display: inline-block;
+    font-size: 3.5vh;
+    margin: 6% 0% 0% 2%;
+}
+
+.pagejamp a
+{
+    text-decoration: none;
+    color: #37474f;
+    position: relative;
+}
+
+.pagejamp a:hover
+{
+    text-decoration: none;
+    color: #37474f;
+}
+
+.pagejamp a::after 
+{
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: gray;
+    transform: scale(0, 2);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+
+.pagejamp a:hover::after 
+{
+    transform: scale(1, 2);
 }
