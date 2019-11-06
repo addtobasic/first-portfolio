@@ -17,22 +17,42 @@ div p
     font-size: 5vh;
 }
 
-/* .furait
+img
+{
+    width: 250px;
+    height: 250px;
+}
+
+.furait img
+{
+    display: block;
+	transition-duration: 0.3s;
+}
+
+.furait img:hover
+{
+    transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;
+}
+
+.yurui img
+{
+    display: block;
+	transition-duration: 0.3s;
+}
+
+.yurui img:hover
+{
+    transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;
+}
+
+
+.furait
 {
     padding: 6% 0%;
-} */
+}
 
-/* #furait_pic
-{
-    width: 250px;
-    height: 250px;
-} */
-
-/* div a
-{   
-    width: 250px;
-    height: 250px;
-} */
 
 
 
