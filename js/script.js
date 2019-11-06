@@ -1,25 +1,4 @@
 $(function () {
-    // $('#profile').hover(function () {
-    //     $(this).css('font-size', '10vh');
-    // },
-    //     function () {
-    //         $(this).css('font-size', '');
-    //     });
-
-    // $('#work').hover(function () {
-    //     $(this).css('font-size', '10vh');
-    // },
-    //     function () {
-    //         $(this).css('font-size', '');
-    //     });
-
-    // $('#blog').hover(function () {
-    //     $(this).css('font-size', '10vh');
-    // },
-    //     function () {
-    //         $(this).css('font-size', '');
-    //     });
-
     function welcome(str = "") {
         let buf = document.getElementById("typing").innerHTML;
         let writed = buf.length;
