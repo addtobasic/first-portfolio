@@ -17,16 +17,12 @@ div p
     font-size: 5vh;
 }
 
-img
-{
-    width: 250px;
-    height: 250px;
-}
-
 .furait img
 {
     display: block;
-	transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    width: 250px;
+    height: 250px;
 }
 
 .furait img:hover
@@ -38,7 +34,9 @@ img
 .yurui img
 {
     display: block;
-	transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    width: 250px;
+    height: 250px;
 }
 
 .yurui img:hover
@@ -47,15 +45,29 @@ img
 	transition-duration: 0.3s;
 }
 
+.kosen_conf_in_hokkaido img
+{
+    display: block;
+    transition-duration: 0.3s;
+    width: 250px;
+    height: 129*px;
+}
+
+.kosen_conf_in_hokkaido img:hover
+{
+    transform: scale(1.1);
+	transition-duration: 0.3s;
+}
 
 .furait
 {
     padding: 6% 0%;
 }
 
-
-
-
+.yurui
+{
+    padding: 0% 0% 6% 0%;
+}
 
 .pagejamp div
 {
