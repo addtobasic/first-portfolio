@@ -1,4 +1,4 @@
-# first_portfolio
+# first-portfolio
 ぼくのポートフォリオです
 そのうちつくりなおします
 
